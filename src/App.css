@@ -1,0 +1,52 @@
+body, html, #root {
+  height: 100vh;
+  
+}
+
+.sidebar {
+  width: 20%;
+  color: white;
+  transition: width 0.3s;
+  overflow: hidden;
+
+}
+
+.sidebar.closed {
+  width: 10px;
+}
+
+.main-content {
+  flex-grow: 1;
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  height: 100%;
+  background-image: radial-gradient(closest-side, #000, #00000060);
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.statue-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: auto;
+  filter: drop-shadow(60px 0px 4px #303030);
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
