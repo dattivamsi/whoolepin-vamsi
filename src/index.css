@@ -159,4 +159,8 @@
   .toggle-icon{
     display: none;
   }
+  .statue-image{
+    width: 80%;
+    height: 65%;
+  }
 }
